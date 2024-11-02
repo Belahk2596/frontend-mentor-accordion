@@ -1,0 +1,72 @@
+body {
+  background-image: url("assets/images/background-pattern-desktop.svg");
+  background-repeat: repeat-x;
+  color: hsl(292, 42%, 14%);
+  background-color: hsl(0, 0%, 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-wrap {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  width: 600px;
+  height: 500px;
+  box-shadow: -0.25px 0.25px 3px grey;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 2rem;
+  color: hsl(292, 42%, 14%);
+}
+
+.header-wrap {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.sub-head {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: hsl(292, 42%, 14%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sub-head-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  color: hsl(292, 16%, 49%);
+  display: none;
+}
+
+img {
+  cursor: pointer;
+}
+
+img:hover {
+  
+}
+@media (max-width: 375px) {
+  
+  body {
+    font-size: 14px;
+    background-color: #f0f0f0;
+  }
+
+  .container {
+    padding: 10px;
+    text-align: center;
+  }
+}
+
